@@ -1,7 +1,10 @@
+import Editor from "./components/Editor"
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Editor />
+    </div>
   )
 }
 
