@@ -1,6 +1,6 @@
 const SvgTree = () => {
   return (
-    <div>SvgTree</div>
+    <div>Svglar</div>
   )
 }
 
