@@ -71,5 +71,3 @@ export default defineConfig([
   },
 ])
 ```
-
-This project for desingers who make icon for web and apps. Desinger can icon preview change and code
