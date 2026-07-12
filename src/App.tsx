@@ -2,9 +2,9 @@ import Editor from "./components/Editor"
 
 const App = () => {
   return (
-    <div>
+    <main className="app-shell">
       <Editor />
-    </div>
+    </main>
   )
 }
 

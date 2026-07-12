@@ -5,20 +5,20 @@ import SvgTree from "./SvgTree";
 
 export default function Editor() {
   return (
-    <Group orientation="horizontal">
-      <Panel defaultSize="25%">
+    <Group className="editor-layout" orientation="horizontal">
+      <Panel defaultSize="18%" minSize="14%">
         <SvgTree />
       </Panel>
 
-      <Separator className="w-[2px] bg-gray-300" />
+      <Separator className="resize-handle" />
 
-      <Panel defaultSize="25%">
+      <Panel defaultSize="36%" minSize="24%">
         <CodePanel />
       </Panel>
 
-      <Separator className="w-[2px] bg-gray-300" />
+      <Separator className="resize-handle" />
 
-      <Panel defaultSize="50%">
+      <Panel defaultSize="46%" minSize="30%">
         <PreviewPanel />
       </Panel>
     </Group>
